@@ -16,5 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/d2tfn/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/d2tfn/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/samsung/d2tfn/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/d2tfn/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+    vendor/samsung/d2tfn/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/samsung/d2tfn/proprietary/bin/netmgrd:system/bin/netmgrd
